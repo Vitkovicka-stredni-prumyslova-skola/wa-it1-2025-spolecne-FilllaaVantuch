@@ -1,0 +1,30 @@
+.box{
+    background-color: lightcoral;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #111;
+}
+
+.box:nth-child(odd){
+    background: lightseagreen;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-rows: repeat(4, 100px);
+    gap: 30px;
+}
+
+.box1{
+    grid-column: 1 / 5;
+}
+
+.box2{
+    grid-row: 2 / 4;
+}
+
+.box3{
+    grid-column: 2 / 4;
+    grid-row: 2 / 4;
+}
