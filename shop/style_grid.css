@@ -17,7 +17,7 @@
 }
 
 .box1{
-    grid-column: 1 / 5;
+    grid-column: span 4;
 }
 
 .box2{
