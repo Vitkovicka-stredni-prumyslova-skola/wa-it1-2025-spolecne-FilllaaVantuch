@@ -1,0 +1,25 @@
+h1{
+    text-align: center;
+    color: blue;
+}
+
+body{
+    background-color: rgb(155, 155, 155);
+}
+
+a:link{
+
+}
+
+a:active{
+
+}
+
+a:hover{
+    background-color: green;
+    color: aqua;
+}
+
+a:visited{
+    color: black;
+}
